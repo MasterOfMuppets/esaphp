@@ -1,0 +1,43 @@
+{
+  "name": "tPl0ch-composer",
+  "version": "1.2.1",
+  "source": "UNKNOWN",
+  "author": "tPl0ch - Thomas Ploch <profiploch@gmail.com>",
+  "license": "Apache License, Version 2.0",
+  "summary": "This module provides the 'Composer' PHP dependency manager.",
+  "description": "This module installs the 'Composer' PHP dependency manager and provides some custom types to create, update\n    and install projects. Until now the Debian and Redhat OS families are supported.",
+  "project_page": "https://github.com/tPl0ch/puppet-composer",
+  "dependencies": [
+    {
+      "name": "puppetlabs/git",
+      "version_requirement": ">= 0.0.2"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "CHANGELOG.md": "3e9f344af9ee75dca09c2fe354f7cee7",
+    "Gemfile": "2789ef4a44c9145b5cef1beba3a5300c",
+    "Gemfile.lock": "af24da16a8370c0d899748c4d5422dbb",
+    "LICENSE": "fb6ea1d68d856819c6c05db7e5c62a14",
+    "Modulefile": "e085e641107aac27c3459a02947780dc",
+    "README.md": "67de1ca7daa23c508eca4093ed30ae37",
+    "Rakefile": "72ff1370da750350ba1bbe465564c560",
+    "lib/facter/composer_home.rb": "18f963d5a76e1ded2ef454dbb8a079a4",
+    "manifests/exec.pp": "c492b52a249f3ffeb4331052490145be",
+    "manifests/init.pp": "9f7916b0a147e32fbd4823e3d7d33e51",
+    "manifests/params.pp": "6e920f3f0914c20718fa9dc6394812eb",
+    "manifests/project.pp": "b65d33834bc92ea344ccf35aa99357a2",
+    "spec/classes/composer_params_spec.rb": "d8ccb24e9340db4e8e35c6b8f08ca3e7",
+    "spec/classes/composer_spec.rb": "b7e9f1f4240d7b57774b0d72b6d12b52",
+    "spec/defines/composer_exec_spec.rb": "970448a1c3bf239168fb3b15332569c6",
+    "spec/defines/composer_project_spec.rb": "a00ca0539107c78615de248eb8db8837",
+    "spec/fixtures/manifests/site.pp": "627fda0ea96cf904ca427c7fb03df370",
+    "spec/spec.opts": "841ff248f09ff26ea499e7621d3fef33",
+    "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+    "templates/exec.erb": "ccbfb1b84b00bf3504f8ece23635cd16",
+    "tests/init.pp": "f21bd9da2126079c4a9401b4e5c355ec",
+    "tests/project.pp": "43872b97171b27ca7639c9daf698d928"
+  }
+}

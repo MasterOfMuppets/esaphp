@@ -1,0 +1,21 @@
+{
+  "author": "",
+  "checksums": {
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "4e8fc6ca4e0115ef63f9392d3595c36f",
+    "Modulefile": "0db2e1fdda95abd77858075d557147b1",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "tests/init.pp": "1486c0a2749dafcf475b68acbb85c0f6",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "README.markdown": "ec529e0e7faab2f181a60c91248fbb0c"
+  },
+  "dependencies": [],
+  "description": "",
+  "license": "",
+  "name": "roman-java7",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "0.1.0"
+}
