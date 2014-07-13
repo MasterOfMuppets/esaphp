@@ -32,7 +32,7 @@ class { 'apache':
 }
 
 
-apache::vhost { 'test.elasticon.es':
+apache::vhost { 'vagrant.masterofmuppets.com':
   port    => '80',
   docroot => '/vagrant/web'
 }
